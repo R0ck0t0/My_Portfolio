@@ -618,3 +618,23 @@ span {
 	transform: scale(1.05);
 	box-shadow: 0 0 3rem var(--main-color), 0 0 2rem rgba(0, 0, 0, 0.2);
 }
+
+
+.tech-stack {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tech-pill {
+  background: #232b36;
+  color: #e3e6eb;
+  border-radius: 999px;
+  padding: 0.35em 1em;
+  font-size: 1em;
+  border: 1px solid #3a4151;
+  display: inline-block;
+  font-family: inherit;
+  transition: background 0.2s, color 0.2s;
+}
